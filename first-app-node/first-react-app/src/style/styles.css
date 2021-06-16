@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px
+}
+.converterBox {
+border: 1px solid black;
+width: 300px;
+padding: 15px;
+border-radius: 15px;
+box-shadow: 2px 2px 5px rgba(72,72, 214);
+float: left;
+margin: 5px;
+}
+
+.converterBox button {
+    background-color: blue;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.converterBox h2 {
+    font-size:18px;
+    color: blue;
+}
+.converterBox input[type="text"] {
+    margin:10px;
+    padding:5px;
+}
+.converterBox p {
+    color: blue;
+    padding: 5px;
+    font-size:18px;
+}
+header {
+    background-color: black;
+    color: white;
+padding: 20px;
+text-align: center;
+
+}
